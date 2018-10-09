@@ -1,0 +1,1311 @@
+
+/*for home section tablefs*/
+/*cellspacing="0" cellpadding="0" style="border: none;border-collapse: collapse;*/
+
+
+/* Color Scheme: Purple and orange 
+https://material.io/color/#!/?view.left=0&view.right=0&primary.color=5d34af&secondary.color=F4511E
+*/
+
+
+/* ******************* SITE-WIDE DEFAULT STYLING  ******************/
+@font-face {
+	font-family: 'Lato-Regular';
+	src: url('fonts/Lato-Regular.ttf') format('truetype');
+
+}
+
+body{
+	
+	font-family: Lato-Regular, Trebuchet MS, Verdana, Helvetica, Arial, sans-serif;
+	color: #455a64;
+	margin-top: 0px;
+	
+}
+
+div.mainContainer {
+	width: 800px;
+	margin: auto;
+	display: block;
+	/*padding: 15px;*/
+	overflow-x: : hidden;
+}
+
+p {
+	color: #373737;
+	font-size: normal;
+}
+
+p.lowMargin{
+	margin-bottom: 5px;
+}
+
+
+
+/* *********  DIVs *******************/
+
+
+div.classNoticeBox {
+	background-color: #9061e2;
+	display: inline-block;
+	clear: right;
+	border-style: solid;
+	padding: 15px;
+	border-width: 2px;
+	border-color: #27057f;
+	width: 370px;
+}
+
+div.noticeItem{
+	/*display: block;*/
+	/*float: left;*/
+	/*clear: right;*/
+	color: white;
+	font-size: 11pt;
+	margin-top: 10px;
+	
+}
+
+div.homeSectionFooter{
+	display: block;
+	clear: both;
+	width: 100%
+}
+
+div.coreIdea{
+	padding: 10px;
+	background-color: #d1c4e9;
+	margin-top: 10px;
+	/*margin-bottom: 10px;
+	border-width: 5px;
+	border-style: solid;*/
+	box-shadow: 8px 8px #4a148c; 
+	display: block;
+	margin-bottom: 25px;
+}
+
+div.classNotice{
+	padding: 10px;
+	background-color: #567B96;
+	margin-top: 10px;
+	/*margin-bottom: 10px;
+	border-width: 5px;
+	border-style: solid;*/
+	box-shadow: 8px 8px #0A2E48; 
+	display: block;
+	margin-bottom: 25px;
+}
+
+div.classNotice p{
+	color: white;
+}
+
+div.coreIdea p{
+	margin: 0px;
+}
+
+div.homeSection p{
+	margin-bottom: 15px;
+}
+
+div.coreIdeaSpacedPara p{
+	margin-bottom: 15px;
+	color: darkblue;
+}
+
+div.week{
+	border-style: solid;
+    display: block;
+    margin: 15px;
+    padding: 30px;
+    box-shadow: 10px 10px;
+    
+}
+
+div.tip{
+	padding: 10px;
+	background-color: #00acc1;
+	
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+div.tip p{
+	margin: 0px;
+}
+
+div.warning{
+	padding: 10px;
+	background-color: #fb8c00;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+div.warning p{
+	margin: 10px;
+}
+
+div.kp{
+	padding: 10px;
+	background-color: #d9e8fb;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 8px 8px #004191; 
+	display: block;
+	margin-bottom: 25px;
+}
+
+div.kp p{
+	margin: 10px;
+}
+
+div.code{
+	padding: 10px;
+	background-color: #90a4ae;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+div.code p{
+	font-family: monospace;
+	margin: 0px;
+}
+
+div.grayBackground {
+
+	background: gray;
+	display: block;
+	width: 100%;
+}
+
+div.toggleable{
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000063;
+	padding: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+
+}
+
+/*div.modImageHeader{
+	display: block;
+	width: 390px;
+	clear: none;
+
+}
+*/
+
+article.module{
+	font-size: small;
+}
+
+article.module p{
+	padding-right: 15px;
+}
+
+
+
+/* *********  Site-wide links *******************/
+
+a:link{
+	color: #005b9f;
+	font-weight: normal;
+	text-decoration: none;
+	font-size: 1em;
+
+}
+
+
+a:visited{
+	color: #005b9f;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #005b9f;
+	font-weight: normal;
+	text-decoration: underline;
+
+}
+
+a.bold{
+	font-weight: bold;
+}
+
+/*Old link color (wiki blue) #5472d3*/
+
+
+
+/* Standard headers-- not in project divs*/
+
+li {
+	
+	padding: 6px;
+}
+
+h1 {
+	color: #18227c;
+	font-size: 1.9em;
+}
+
+h2 { 
+	color: #18227c;
+	font-size: 1.4em;
+
+}
+
+h2.slideProof{
+	display: block;
+	margin-top: 20px;
+}
+
+h2.subTitle {
+	font-style: italic;
+	color: #616161;
+	font-size: 1.1em;
+	font-weight: normal;
+}
+
+h3{
+	display: block;
+	color: #5d34af;
+	/*font-style: italic;*/
+	font-size: 1.2em;
+	/*margin-top: 5px;*/
+	/*margin-bottom: 0px;*/
+}
+h4 {
+	color: #616161;
+	font-size: 1.1em;
+	font-style: italic;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+h5 {
+	font-size: 1.0em;
+}
+
+
+	
+
+/* ****************  UTILITY PAGRAPHS   *******************/
+
+
+/* Misc paragraph styling */
+
+p.code {
+	display: block;
+	font-family: monospace;
+	border-style: solid;
+	border-width: 1px;
+	background-color: lightblue;
+	padding: 10px;
+}
+
+p.colorBlock {
+	padding: 15px;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+/* quotation ?? */
+
+p.q{
+	background-color: lightgrey;
+	font-size: 1.5em;
+	padding: 40px 40px 40px 40px;
+	font-style: italic;
+	
+}
+
+/* Key point pagraph - shaded box*/
+
+p.kp{
+	background-color: #9061e2;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+}
+
+/* Standard grey */
+
+
+
+
+
+
+
+/* ****************  ICONS  *******************/
+
+i.material-icons{
+	font-size: 22px;
+	/*This purple goes with spring 2018 header image flower stem*/
+	color: #9a4693;
+	/*old purple*/
+	/*color: #280680;*/
+	margin-right: 5px;
+	
+	
+}
+
+
+
+
+
+div.large i.material-icons{
+	font-size: 100px;
+	color: #9a4693;
+	display: inline-block;
+}
+
+/*
+div.lo i.material-icons{
+	color: #280680;
+	font-size: 20px;
+	display: inline-block;
+
+}
+*/
+
+th.iconCell i.material-icons{
+	margin-top: 5px;
+}
+
+td.iconCell i.material-icons{
+	margin-top: 5px;
+}
+
+
+
+
+/*************** SPANS *********************/
+
+span.mono{
+	font-family: monospace;
+	font-size: 1.2em
+}
+
+
+
+span.ind{
+	display: inline-block;
+	width: 30px;
+	height: 22px;
+	text-indent: 4em;
+}
+
+span.bold{
+	font-weight: bold;
+}
+
+span.under{
+	text-decoration: underline;
+}
+
+
+span.em1{
+	color: green;
+}
+
+span.em2{
+	color: maroon;
+}
+
+span.strikethrough{
+	text-decoration: line-through;
+
+}
+
+
+span.italic{
+	font-style: italic;
+}
+
+
+
+
+/* ******************* IMAGES AND FIGURES AND CAPTIONS  ******************/
+
+/* Image Caption styling*/
+div.caption{
+	/*font-weight: bold;*/
+	 font-style: italic;
+	 /*text-align:center;*/
+	 font-size: small;
+}
+
+
+div.halfCaptionCont{
+	width: 395px;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: top;
+
+
+}
+
+div.halfCaptionText{
+	 display: inline-block;
+	 font-weight: bold;
+	 font-style: italic;
+	 text-align:center;
+	 width: 100%;
+	 vertical-align: top;
+}
+
+img.imageWCaption{
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+
+
+}
+
+div.figureTitle{
+	font-weight: bold;
+	/*font-style: italic;*/
+	font-size: 0.9em;
+	margin-bottom: 0px;
+}
+
+
+img.center{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+
+/* EXTERNAL LINKS */
+
+img.ext{
+	display: inline-block;
+	margin-left: 5px;
+}
+
+img.contentLogo{
+	display: inline-block;
+	float: left;
+	margin-right: 5px;
+}
+
+p.contentLink{
+	display: inline-block;
+	float: left;
+}
+
+img.module{
+	margin-bottom: 20px;
+	
+}
+
+iframe.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+/* ****************  TABLES MSIC *******************/
+
+
+table {
+	width:auto;
+	overflow-x:auto;
+	margin: auto;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 5px
+	vertical-align: top;
+}
+
+td{
+	width:50%;
+	vertical-align: top;
+	padding: 5px;
+
+}
+
+
+
+table.noBorder{
+	border-collapse: collapse;
+	border: 0px;
+
+
+}
+
+table.leftJust{
+	margin-left: 0px;
+	
+}
+
+table.noBorder tr td{
+	border: 0px;	
+	padding: 1px;
+}
+
+.keyInfo{
+	table-layout: fixed;
+	width: 100%;
+	white-space: nowrap;
+	border-style: none;
+	
+}
+
+.keyInfo td{
+	white-space: pre-wrap;
+	border-style: none;
+	padding: 20px;
+
+}
+
+.keyInfo th{
+	white-space: pre-wrap;
+	border-style: none;
+
+}
+
+.keyInfo-col-content{
+	width: 85%;
+
+}
+
+.keyInfo-col-topic{
+	.width:  15%;
+}
+
+.keyInfo{
+	padding: 0px;
+}
+
+.keyInfo tr:nth-child(even){
+	background-color: blue;
+
+}
+
+.keyInfo tr:nth-child(even){
+	background-color: blue;
+}
+
+/* ******************* Lesson Guides pages STYLING ******************/
+
+div.iconHeaderLine{
+
+	display: block;
+	width: 100%;
+	height: 30px;
+	overflow-y: hidden;
+
+}
+
+
+div.iconContForHeaders{
+	display: inline-block;
+	border: none;
+	padding: 0px;
+	margin: 0px;
+	width: 22px;
+}
+
+div.headerCont{
+	display: inline-block;
+	border: none;
+	padding: 0px;
+	margin: 0px;
+
+
+}
+
+div.headerCont h2{
+	border: none;
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	top: -3px;
+	clear: none;
+
+
+}
+
+
+
+/* ******************* PUBLICATION STYLING ******************/
+
+
+.rubric {
+	width: 100%;
+	overflow-x:auto;
+	margin: auto;
+	table-layout: fixed;
+}
+
+table.pub, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.prof {
+	width: 25%;
+}
+
+.criteria {
+	width: 75%;
+}
+
+/*Knowledge and skill breakdown tables*/
+
+.unit{
+	width: 20%;
+
+}
+.obj {
+	width: 40%;
+}
+
+.manifest {
+	width: 40%
+}
+
+
+
+
+
+div.homelinkLinePub{
+	display: block;
+	/*border: 2px solid purple;*/
+	position: relative;
+	overflow: hidden;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}
+
+
+
+div.iconContPub {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	padding-left: 2px;
+	margin-right: 5px;
+
+	/*border: 2px solid black;*/
+}
+
+div.homeLinkContPub{
+	display: inline-block;
+	/*border: 2px solid green;*/
+	position: absolute;
+	/*height: 28px;*/
+	overflow: hidden;
+}
+
+a.homeLinkPub{
+	display: inline-block;
+	margin-top: 2px;
+	margin-bottom: 5px;
+	/*border: 2px solid orange;*/
+}
+
+
+i.material-icons{
+	font-size: 22px;
+	color: #4a148c;
+	display: inline-block;
+
+	
+	
+}
+
+
+
+
+
+
+/* ******************* END PUBLICATION STYLING ******************/
+
+
+
+/* ******************* BUTTONS  ******************/
+
+
+.button{
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+/* ******************* END BUTTONS ******************/
+
+
+
+
+/* ******************* END SITE-WIDE ******************/
+/* ******************* END SITE-WIDE ******************/
+/* ******************* END SITE-WIDE ******************/
+
+
+
+
+
+
+/* ******************* HOME PAGE SECTIONS ******************/
+
+
+div.homeSection{
+	/*border-bottom: 1px solid black;*/
+	border: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+div.item{
+	font-size: small;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+
+div.itemInd{
+	font-size: small;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	margin-left: 31px;
+}
+
+
+
+
+
+/*  HOME LINKS */
+
+
+
+div.homelinkLine{
+	display: block;
+	/*border: 2px solid purple;*/
+	width: 400px;
+	position: relative;
+	overflow: hidden;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}
+
+
+
+div.iconCont{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	padding-left: 2px;
+	margin-right: 5px;
+
+	/*border: 2px solid black;*/
+}
+
+div.homeLinkCont{
+	display: inline-block;
+	/*border: 2px solid green;*/
+	position: absolute;
+	height: 28px;
+	overflow: hidden;
+}
+
+a.homeLink{
+	display: inline-block;
+	margin-top: 2px;
+	/*border: 2px solid orange;*/
+}
+
+
+i.material-icons{
+	font-size: 22px;
+	color: #4a148c;
+	display: inline-block;
+
+	
+	
+}
+
+
+
+.homeSection p{
+	margin-top: 10px;	
+	margin-bottom: 10px;
+	color: #455a64;
+	display: inline-block;
+	/*height: 20px;*/
+	float: left;
+
+	
+}
+
+
+/* Course boxes styling*/
+p.overview{
+	font-style: italic;
+}
+
+div.subheader{
+	font-size: .8em;
+	font-style: italic;
+	margin-bottom: 10px;
+	display: block;
+	width: 400px;
+}
+
+
+
+table.homeSectionTable{
+	border: none;
+	width: 100%;
+
+}
+
+
+
+tr.homeSectionTR{
+	border: none;
+
+}
+
+td.homeSectionTDLeft {
+	border: none;
+
+}
+
+td.homeSectionTDRight {
+	border: none;
+	padding-left: 15px;
+
+}
+
+.home h1{
+	color: #002171;
+	font-size: 1.5em;
+}
+
+
+.homeSection h2{
+	color: #9a4693;	
+	margin-top: 5px;
+	font-size: 1.3em;
+	margin-bottom: 10px;
+	display: block;
+}
+
+
+.homeSection h3{
+	color: #1c313a;	
+	font-size: 1.1em;
+	font-style: normal;
+	margin-bottom: 3px;
+	margin-top: 10px;
+	display: block;
+}
+
+h3.topOfCol{
+	margin-top: 0px;
+}
+
+
+.homeSection h4{
+	color: #1c313a;
+	font-size: 1em;
+	font-style: normal;
+	letter-spacing: -1px;
+	margin-bottom: 3px;
+	margin-top: 10px;
+	display: block;
+}
+
+
+
+.homeSection h5{
+	color: #1c313a;
+	font-size: .9em;
+	font-style: normal;
+	letter-spacing: -1px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	display: block;
+}
+	
+/*
+.homeSection h5{
+	color: #1c313a;
+	font-size: .9em;
+	font-style: normal;
+	letter-spacing: -2px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	display: inline-block;
+	
+}*/
+
+
+/*.iconBox i.material-icons{
+	font-size: 20px;
+	color: #1c313a;
+	margin-right: 10px;
+	float: left;
+}*/
+
+div.iconline{
+	display: block;
+	margin-bottom: 5px;
+	/*clear: right;*/
+	margin-right: 8px;
+	/*height: 20px;*/
+
+}
+
+div.spacedLines{
+	line-height: 1.5em;
+	font-size: 1em;
+	font-weight: normal;
+	display: block;
+	width: 380px;
+	margin-bottom: 8px;
+}
+
+div.monoSpacedLines{
+	line-height: 1.5em;
+	font-size: .9em;
+	font-weight: normal;
+	font-family: monospace;
+	display: block;
+	width: 400px;
+}
+/*
+
+
+		        						<div class="iconline">
+		        							<div class="iconBox">
+		        								<i class="material-icons">school</i>
+		        							</div>
+
+		        							<div class="linkBox">
+		        								<a href="">North: Tue/Th 9:30-11:30am | Rm 1140</a>
+	        								</div>
+	        							</div>
+
+
+*/
+
+img.indexThumb{
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+}
+
+
+
+
+/* ***************** module navigation divs ******************/
+div.moduleNavigation{
+	display: block;
+
+
+}
+
+div.modNavItem{
+	display: inline-block;
+	position: relative;
+	height: 150px;
+
+}
+
+div.modNavIconLarge{
+	display: inline-block;
+	position: relative;
+
+
+}
+
+
+div.modNavIconLarge i.material-icons{
+	display: inline-block;
+	position: relative;
+	font-size: 150px;
+
+
+}
+
+div.modNavText{
+	display: inline-block;
+	position: relative;
+
+
+}
+
+div.modNavText h1{
+	display: block;
+
+
+}
+
+div.modNavText p{
+
+	display: block;
+
+
+}
+
+div.modNavLineBreak {
+	display: block;
+	height: 0px;
+}
+
+
+
+
+
+div.project p {
+	font-size: 1.5em;
+	margin-top: 0px;
+}
+
+
+div.caption p{
+	display: block;
+	font-style: italic;
+	font-size: 12pt;
+}
+
+div.figure p{
+	display: block;
+	font-weight: bold;
+	font-size: 14pt;
+	margin-bottom: 5px;
+
+}
+
+div.project li{
+	font-size: 1.3em;
+}
+
+div.project li.subli{
+	font-size: 1em;
+}
+
+div.project h1{
+	font-size: 1.6em;
+	color: #5e35b1;
+}
+
+div.project h2{
+	font-size: 1.6em;
+	color: #280680;
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+
+div.project h3{
+	font-size: 1.4em;
+	color: #484848;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+
+
+div.project h4{
+	font-size: 1.2em;
+	letter-spacing: -1px;
+	color: #1c313a;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+
+
+div.project h5{
+	/*display: inline-block;*/
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	
+
+}
+div.project h6{
+	/*display: inline-block;*/
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	
+
+}
+
+
+/* lo = learning outcomes*/
+
+div.lo h5{
+	display: inline-block;
+}
+
+.lo p{
+	margin: 0px 5px 5px 5px;
+}
+
+
+/* ***************** module misc  ******************/
+
+span.underline{
+	text-decoration: underline;
+}
+
+div.project div.caption{
+	
+	
+	font-weight: normal;
+	margin-bottom: 15px;
+}
+
+
+/* Learning objectives table in modules*/
+
+table.lo{
+	table-layout: fixed;
+	border-collapse: collapse;
+	width: 100%;
+	border: none;
+
+}
+
+table.lo th{
+	text-align: left;
+	vertical-align: top;
+	font-weight: normal;
+	padding: 5px;
+
+}
+
+th.icon{
+	width: 25px;
+}
+
+table.lo td{
+	border: none;
+}
+
+table.lo th{
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ****************  COURSE DOCUMENTS  *******************/
+
+/*Schedule Table Styling*/
+
+
+table#scedTab{
+	table-layout: fixed;
+	border-collapse: collapse;
+	table-layout: fixed;
+	overflow-x:auto; 
+}
+
+
+/* Table styling for syllabus table for CIT100 F17*/
+
+.courseInfo{
+	table-layout: fixed;
+	border-collapse: collapse;
+	width: 100%;
+
+}
+
+.catCol {
+	width: 25%;
+}
+
+.contCol {
+	width: 75%;
+}
+
+
+
+
+/* ******************* PAGE-SPECIFIC  ******************/
+
+/* CIT100 Syllabus styling */
+/* Used to style table coming from spreadsheet export*/
+
+.ta1 p{
+	margin: 0px;
+}
+
+td.shadeG{
+	background-color: lightgray;
+}
+
+td.shadeB{
+	background-color: lightblue;
+}
+
+.shadeN{
+	background-color: lightgreen;
+}
+
+.headRow {
+	font-weight: bold;
+}
+
+td.ce4{
+	background-color: lightblue;
+}
+
+/*Styling for java course schedule table F17*/
+
+.fixedTab {
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.num {
+	width: 5%;
+}
+
+.date {
+	width: 15%;
+}
+
+.topic {
+	width: 40%;
+}
+
+.links {
+	width: 40%;
+}
