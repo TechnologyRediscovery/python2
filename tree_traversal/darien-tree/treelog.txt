@@ -1,0 +1,30 @@
+TREE LOG HOMMIE
+
+Entry 1
+
+	- Added a sculpting example
+
+Entry 2
+
+        -
+
+
+Entry 3 By Jacob Merow
+
+        - Added 2 new directories. Added Design and Prints with example folders as leaves.
+
+
+Entry 4 by Garrett Slain
+**grafted in books tree from course respoisitory
+
+Entry 5 by Josh Gigliotti
+**Size of darien-tree\Art is 144 KB (uncompressed).**
+
+**Size of darien-tree\Art after compression is 137 KB**
+
+**Hashcode for zip(SHA256): E2CE56BFF37A8C2C664413B2450C9C46BE11F6BFFB05B84BC2D0CDB9D2E960A0**
+
+Entry 6: Darien Sweitzer
+
+	- Before Hash: 4000622D203E9B8076AB30254F0BB83E7D8DD3254EFE49EF316DD33D62907CF1
+	- After Hash: 815CB7DA61BB1C45A4F3039AFFB5A2FCCABCFEC2AA8F08EE53BA2EEC71A2FE40
