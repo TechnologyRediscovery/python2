@@ -1,5 +1,5 @@
 # JSON Processing
-JSON is an data interchange format used widely on The Internet and supported by most programming lanaguges in wide use today.
+[JSON](https://www.json.org/json-en.html) is an data interchange format used widely on The Internet and supported by most programming lanaguges in wide use today.
 
 ## Encoding python objects in JSON
 We can create a python dictionary and then encode it using JSON and write it to a file:
