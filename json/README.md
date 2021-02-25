@@ -10,3 +10,7 @@ course_films['Jack Goes Boating'] = 'Java: Might We Be Friends Project'
 with open('course_films.json', 'w') as film_file:
     film_file.write(json.dumps(course_films))
 ```
+
+## Decoding JSON files into native Python objects
+By reading a file encoded in JSON, we can easily use the json.load() method to rereate native python objects, as seen here:
+![Screen shot of python object created from JSON](img/doctor_snip.png)
